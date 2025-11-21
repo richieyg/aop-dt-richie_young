@@ -1,0 +1,102 @@
+body {
+    background-image: linear-gradient(0deg, rgb(0, 255, 157) 10%, rgb(65, 112, 100) 94%);
+
+}
+
+
+.judulWOISIRNUELRIBET {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet,
+    red
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 20s linear infinite, glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0%; }
+  100% { background-position: 400%; }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow:
+      0 0 5px rgba(255,255,255,0.6),
+      0 0 10px rgba(255,255,255,0.6),
+      0 0 20px rgba(255,255,255,0.5);
+  }
+  100% {
+    text-shadow:
+      0 0 10px rgba(255,255,255,0.8),
+      0 0 20px rgba(255,255,255,0.8),
+      0 0 40px rgba(255,255,255,0.7);
+}
+}
+
+.centertextWOISIRAH {
+    text-align: center;
+
+}
+
+.logolssSAYALELAHDENGANICT {
+    width: 55px;
+    position: relative;
+    top: -105px;
+    left: 575px;
+}
+
+.kartukartubapakautestessatuduatigameow {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.kartukartubapakautestessatuduatigameow:hover {
+  transition: 0.3s all ease;
+  transform: scale(1.15);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.coverrichierichiemeow {
+  width:100%; 
+  aspect-ratio: 1 / 1; 
+  object-fit:cover;
+  border-radius:8px;
+  display:block;
+}
+
+.musicnueldisinioisinibyone {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.kesanpesanrichiemeowah {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
